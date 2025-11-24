@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact — Cầm Phạm</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">Cầm Phạm<span class="underscore"></span></div>
+      <nav class="main-nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="skills.html" class="nav-link">Skills</a>
+        <a href="projects.html" class="nav-link">Projects</a>
+        <a href="contact.html" class="nav-link active">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="contact-section">
+      <div class="contact-left">
+        <img src="avatar.jpg" alt="Avatar" class="avatar-small">
+        <p><strong>Email:</strong> cpham05207@gmail.com</p>
+        <p><strong>GitHub:</strong> github.com/Zen05207</p>
+      </div>
+
+      <div class="contact-right">
+        <h2>Liên hệ</h2>
+        <form class="contact-form" action="#" method="post" onsubmit="alert('Form demo — chưa gửi thực'); return false;">
+          <input type="text" name="name" placeholder="Họ và tên" required>
+          <input type="email" name="email" placeholder="Email" required>
+          <textarea name="message" rows="6" placeholder="Lời nhắn..." required></textarea>
+          <button type="submit" class="btn">Gửi</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">© 2025 Cầm Phạm — Game Developer</div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
